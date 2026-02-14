@@ -16,6 +16,7 @@ import {
   DEFAULT_SOUL_FILENAME,
   DEFAULT_TOOLS_FILENAME,
   DEFAULT_USER_FILENAME,
+  DEFAULT_FUHUO_FILENAME,
   ensureAgentWorkspace,
 } from "../../agents/workspace.js";
 import { movePathToTrash } from "../../browser/trash.js";
@@ -51,6 +52,7 @@ const BOOTSTRAP_FILE_NAMES = [
   DEFAULT_USER_FILENAME,
   DEFAULT_HEARTBEAT_FILENAME,
   DEFAULT_BOOTSTRAP_FILENAME,
+  DEFAULT_FUHUO_FILENAME,
 ] as const;
 
 const MEMORY_FILE_NAMES = [DEFAULT_MEMORY_FILENAME, DEFAULT_MEMORY_ALT_FILENAME] as const;
