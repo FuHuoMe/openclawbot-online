@@ -6,7 +6,7 @@
   "license": "MIT",
   "author": "熊大 🐻💪",
   "bin": {
-    "openclawbot-online": "openclaw.mjs"
+    "openclaw": "openclaw.mjs"
   },
   "files": [
     "CHANGELOG.md",
